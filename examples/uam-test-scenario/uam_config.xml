@@ -497,7 +497,7 @@
 			value="Infinity" />
 		<!-- maximum number of plans per agent. ``0'' means ``infinity''. Currently 
 			(2010), ``5'' is a good number -->
-		<param name="maxAgentPlanMemorySize" value="1" />
+		<param name="maxAgentPlanMemorySize" value="5" />
 		<!-- strategyName of PlanSelector for plans removal. Possible defaults: 
 			WorstPlanSelector SelectRandom SelectExpBetaForRemoval ChangeExpBetaForRemoval 
 			PathSizeLogitSelectorForRemoval . The current default, WorstPlanSelector 
@@ -598,7 +598,7 @@
 	</module>
 
 	<module name="uam">
-		<param name="inputFile" value="uam_vehicles.xml.gz" />
+		<param name="inputFile" value="uam_vehicles_devided_10.xml" />
 		<param name="routingStrategy" value="MINTRAVELTIME" />
 		<param name="searchRadius" value="9999.0" />
 		<param name="accessEgressModes" value="walk,car" />
